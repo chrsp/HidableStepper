@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         stepper.type = .circular
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
