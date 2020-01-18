@@ -18,6 +18,7 @@ Pod::Spec.new do |spec|
   spec.name         = "HidableStepper"
   spec.version      = "0.0.2"
   spec.summary      = "A simple stepper that can hide part of itself"
+  spec.swift_version = "5.0"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +26,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  A simple stepper that can hide part of itself
+  A customazible stepper that hides part of itself if the counter is equals to it min (by default its 0)
                    DESC
 
   spec.homepage     = "https://github.com/chrsp/HidableStepper"
@@ -39,8 +40,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
