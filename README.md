@@ -1,7 +1,7 @@
 # HidableStepper
 A simple stepper that can hide part of itself 
 
-![](component-example.gif)
+![](screenshots/component-example.gif)
 
 #### Version 0.0.1
 - **January, 2020** - HidableStepper 🥳
