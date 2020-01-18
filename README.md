@@ -3,8 +3,18 @@ A simple stepper that can hide part of itself
 
 ![](component-example.gif)
 
-#### Version 1.x
+#### Version 0.0.1
 - **January, 2020** - HidableStepper 🥳
+
+## Installation
+###  CocoaPods
+
+```ruby
+pod 'HidableStepper''
+```
+
+###  Manually
+You can directly copy and paste the folder `HidableStepper` to your project.
 
 ## Usage
 
@@ -14,19 +24,19 @@ You can fully customize the buttons setting the properties on `additionButton` a
 
 - .normal
 
-![](normal.png)
+![](screenshots/normal.png)
 
 - .fullyRounded
 
-![](rounded.png)
+![](screenshots/rounded.png)
 
 - .bottomRounded
 
-![](bottomRounded.png)
+![](screenshots/bottomRounded.png)
 
 - .circular
 
-![](circular.png)
+![](screenshots/circular.png)
 
 To control the component's behavior sign to its delegate (`HidableStepperDelegate`)
 

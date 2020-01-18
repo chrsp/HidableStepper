@@ -8,31 +8,24 @@
 
 import UIKit
 
-
 class ViewController: UIViewController {
 
     @IBOutlet weak var stepper: HidableStepper!
-    @IBOutlet weak var stackView: UIStackView!
-    @IBOutlet weak var button: UIButton!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         stepper.type = .circular
-        
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        
+        stepper.delegate = self
     }
 }
 
 extension ViewController: HidableStepperDelegate {
     
     func stepperWillHideDecreaseButton() {
-        button.isHidden = false
+        
     }
     
     func stepperWillRevealDecreaseButton() {
-        button.isHidden = true
+
     }
 }

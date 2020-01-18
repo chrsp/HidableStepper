@@ -13,23 +13,23 @@
 		895A07CA934F70C1C03C0C28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895A0E1C3B54D6BC62E7EDCC /* LaunchScreen.storyboard */; };
 		895A0CB9F3A061FD257A36EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895A054855226DB709E9A160 /* Main.storyboard */; };
 		895A0D65FDD61131BDF933D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895A0DFE7E780F08925C12C9 /* SceneDelegate.swift */; };
-		895A0F41F520B01BA7B89B00 /* HidableStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895A0D115969D85B5D438142 /* HidableStepper.swift */; };
-		A6A377C323D11D05008222A9 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A377C223D11D05008222A9 /* UIButton+Extension.swift */; };
-		A6A377C523D11D19008222A9 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A377C423D11D19008222A9 /* UIImage+Extension.swift */; };
+		A674A4C823D315B200441117 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A674A4C523D315B200441117 /* UIImage+Extension.swift */; };
+		A674A4C923D315B200441117 /* HidableStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A674A4C623D315B200441117 /* HidableStepper.swift */; };
+		A674A4CA23D315B200441117 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A674A4C723D315B200441117 /* UIButton+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		895A00202FA009017B85833D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		895A037601E9A1B0A8878D95 /* HidableStepper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HidableStepper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		895A037601E9A1B0A8878D95 /* HidableStepperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HidableStepperExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		895A07CB7E6AD11A1C844A90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		895A08EE94954AB4FCCE21F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		895A0BABA74FCFABF3F36642 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		895A0C82EE0AC926033FBC4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		895A0D115969D85B5D438142 /* HidableStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HidableStepper.swift; sourceTree = "<group>"; };
 		895A0DFE7E780F08925C12C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		895A0ED9B6E55914A53726AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A6A377C223D11D05008222A9 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
-		A6A377C423D11D19008222A9 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		A674A4C523D315B200441117 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		A674A4C623D315B200441117 /* HidableStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HidableStepper.swift; sourceTree = "<group>"; };
+		A674A4C723D315B200441117 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +43,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		895A0129C72F013F8D317E5B /* HidableStepper */ = {
+		895A0129C72F013F8D317E5B /* HidableStepperExample */ = {
 			isa = PBXGroup;
 			children = (
 				895A07CB7E6AD11A1C844A90 /* Info.plist */,
@@ -52,26 +52,26 @@
 				895A0C82EE0AC926033FBC4D /* AppDelegate.swift */,
 				895A0DFE7E780F08925C12C9 /* SceneDelegate.swift */,
 				895A00202FA009017B85833D /* ViewController.swift */,
+				A674A4C623D315B200441117 /* HidableStepper.swift */,
+				A674A4C723D315B200441117 /* UIButton+Extension.swift */,
+				A674A4C523D315B200441117 /* UIImage+Extension.swift */,
 				895A054855226DB709E9A160 /* Main.storyboard */,
-				895A0D115969D85B5D438142 /* HidableStepper.swift */,
-				A6A377C223D11D05008222A9 /* UIButton+Extension.swift */,
-				A6A377C423D11D19008222A9 /* UIImage+Extension.swift */,
 			);
-			path = HidableStepper;
+			path = HidableStepperExample;
 			sourceTree = "<group>";
 		};
 		895A078B1B0F09EC06F97DD9 = {
 			isa = PBXGroup;
 			children = (
 				895A0D7867DE41B27DF1B58C /* Products */,
-				895A0129C72F013F8D317E5B /* HidableStepper */,
+				895A0129C72F013F8D317E5B /* HidableStepperExample */,
 			);
 			sourceTree = "<group>";
 		};
 		895A0D7867DE41B27DF1B58C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				895A037601E9A1B0A8878D95 /* HidableStepper.app */,
+				895A037601E9A1B0A8878D95 /* HidableStepperExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		895A017E59BB8F81E602138A /* HidableStepper */ = {
+		895A017E59BB8F81E602138A /* HidableStepperExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 895A0535370EE5C65C5EE14A /* Build configuration list for PBXNativeTarget "HidableStepper" */;
+			buildConfigurationList = 895A0535370EE5C65C5EE14A /* Build configuration list for PBXNativeTarget "HidableStepperExample" */;
 			buildPhases = (
 				895A07352F4F9BDFF0575A50 /* Sources */,
 				895A0F2D3808770F1936BF99 /* Frameworks */,
@@ -91,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = HidableStepper;
+			name = HidableStepperExample;
 			productName = AdditionStepper;
-			productReference = 895A037601E9A1B0A8878D95 /* HidableStepper.app */;
+			productReference = 895A037601E9A1B0A8878D95 /* HidableStepperExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 895A04D38CF4BF165A36CA58 /* Build configuration list for PBXProject "HidableStepper" */;
+			buildConfigurationList = 895A04D38CF4BF165A36CA58 /* Build configuration list for PBXProject "HidableStepperExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -123,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				895A017E59BB8F81E602138A /* HidableStepper */,
+				895A017E59BB8F81E602138A /* HidableStepperExample */,
 			);
 		};
 /* End PBXProject section */
@@ -147,11 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				895A0239DC383A27605B067F /* AppDelegate.swift in Sources */,
-				A6A377C523D11D19008222A9 /* UIImage+Extension.swift in Sources */,
 				895A0D65FDD61131BDF933D2 /* SceneDelegate.swift in Sources */,
 				895A06850296ED00178A5FAC /* ViewController.swift in Sources */,
-				A6A377C323D11D05008222A9 /* UIButton+Extension.swift in Sources */,
-				895A0F41F520B01BA7B89B00 /* HidableStepper.swift in Sources */,
+				A674A4C923D315B200441117 /* HidableStepper.swift in Sources */,
+				A674A4C823D315B200441117 /* UIImage+Extension.swift in Sources */,
+				A674A4CA23D315B200441117 /* UIButton+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +182,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8D69GAM5D6;
-				INFOPLIST_FILE = HidableStepper/Info.plist;
+				INFOPLIST_FILE = HidableStepperExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.holografix.AdditionStepper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -256,7 +256,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8D69GAM5D6;
-				INFOPLIST_FILE = HidableStepper/Info.plist;
+				INFOPLIST_FILE = HidableStepperExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.holografix.AdditionStepper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -321,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		895A04D38CF4BF165A36CA58 /* Build configuration list for PBXProject "HidableStepper" */ = {
+		895A04D38CF4BF165A36CA58 /* Build configuration list for PBXProject "HidableStepperExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				895A04948BCB6542BBADCD31 /* Debug */,
@@ -330,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		895A0535370EE5C65C5EE14A /* Build configuration list for PBXNativeTarget "HidableStepper" */ = {
+		895A0535370EE5C65C5EE14A /* Build configuration list for PBXNativeTarget "HidableStepperExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				895A00768817F2A631A6EC8C /* Debug */,
