@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HidableStepper"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A simple stepper that can hide part of itself"
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   A simple stepper that can hide part of itself
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/HidableStepper"
+  spec.homepage     = "https://github.com/chrsp/HidableStepper"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
